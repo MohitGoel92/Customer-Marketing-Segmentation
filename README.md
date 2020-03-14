@@ -28,6 +28,8 @@ Our initial selection of the centroids at the beginning of the algorithm may dic
 
 K-Means ++ happens in the background of our machine learning algorithm automatically.
 
+**
+
 **Pros of K-Means Clustering**
 
 - Simple to understand
