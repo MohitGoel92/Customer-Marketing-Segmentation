@@ -96,4 +96,17 @@ After determining the optimal number of clusters being 5 from the elbow method, 
 
 ## Hierarchical Clustering
 
+There are two types of Hierarchical Clustering algorithms, they are "Agglomerative" and "Divisive" clustering. Agglomerative and Divisive clustering are also referred to as the "bottom up approach" and "starting from the top" respectively.
+
+**Steps to performing the Agglomerative Hierarchical Clustering**
+
+- **Step 1:** Make each data point a single-point cluster, therefore N datapoints resulting in N clusters.
+- **Step 2:** Take the two closest data points and make them one cluster.
+- **Step 3:** Take the two closest clusters and make them one cluster.
+- **Step 4:** Repeat step 3 until there is only one cluster.
+
+The Hierarchical Clustering algorithm maintains a memory oh how we went through the process. The memory is stored in a dendrogram.
+
+## The Dendrogram
+
 
