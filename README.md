@@ -57,7 +57,7 @@ plt.show()
 
 The diagram below shows the graphical out of the above code, we observe the elbow at Number of Clusters = 5.
 
-<img src = 'Screen2.png' width='700'>
+<img src = 'Screen2.png' width='850'>
 
 **Steps to performing the K-Means Clustering**
 
@@ -88,4 +88,4 @@ K-Means ++ happens in the background of our machine learning algorithm automatic
 
 
 <img src = 'Screen1.png' width='700'>
-<img src = 'Screen3.png' width='700'>
+<img src = 'Screen3.png' width='850'>
