@@ -53,7 +53,7 @@ plt.show()
 **Note**
 - init = 'k-means++' refers to the "Random Initialisation Method" of the "K-Means ++" algorithm.
 - max_iter = 300 refers to the maximum number of iterations to find the final clusters when the K-Means algorithm is running, the default value for max_iter = 300.
-- n_init = 10 refers to the number of times the K-Means algorithm willbe run with different initial centroids, the default value for n_init = 10.
+- n_init = 10 refers to the number of times the K-Means algorithm will be run with different initial centroids, the default value for n_init = 10.
 
 The diagram below shows the graphical output of the above code, we observe the elbow at Number of Clusters = 5.
 
