@@ -105,8 +105,13 @@ There are two types of Hierarchical Clustering algorithms, they are "Agglomerati
 - **Step 3:** Take the two closest clusters and make them one cluster.
 - **Step 4:** Repeat step 3 until there is only one cluster.
 
-The Hierarchical Clustering algorithm maintains a memory oh how we went through the process. The memory is stored in a dendrogram.
+The Hierarchical Clustering algorithm maintains a memory of how we went through the process. The memory is stored in a dendrogram.
 
 ## The Dendrogram
+
+**Pros of Hierarchical Clustering**
+
+- The optimal number of clusters can be obtained by the model itself
+- Practical visualisation with the dendrogram
 
 
