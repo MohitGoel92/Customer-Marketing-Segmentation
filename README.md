@@ -26,7 +26,7 @@ WCSS is the sum of the square of the distances between the points and the centro
 
 The diagram below illustrates the WCSS graphically.
 
-<img src = 'Screen6.png' width='700'>
+<img src = 'Screen6.png' width='850'>
 
 For the dataset currently under study, we will be using the elbow method to compute the WCSS and visualise our findings graphically. We are visually searching for the "elbow", which is the point that can be loosely defined as the point where the WCSS plateaus or the decrease in WCSS stabilises.
 
@@ -57,7 +57,7 @@ plt.show()
 
 The diagram below shows the graphical out of the above code, we observe the elbow at Number of Clusters = 5.
 
-<img src = 'Screen2.png' width='850'>
+<img src = 'Screen2.png' width='700'>
 
 **Steps to performing the K-Means Clustering**
 
