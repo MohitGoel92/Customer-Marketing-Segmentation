@@ -14,6 +14,23 @@ The diagram below illustrates the impact of using K-Means on a dataset to cluste
 
 <img src = 'Screen4.png' width='850'>
 
+## The Elbow Method
+
+When using K-Means clustering, we must find the optimal number of clusters to use. The greater the number of clusters, the smaller the "Within Cluster Sum of Squares" or "WCSS", the better the goodness of fit.
+
+**Within Cluster Sum of Squares**
+
+WCSS is the sum of the square of the distances between the points and the centroid of the cluster. The formula is given below.
+
+<img src = 'Screen6.png' width='700'>
+
+The diagram below illustrates the WCSS graphically.
+
+<img src = 'Screen5.png' width='700'>
+
+
+<img src = 'Screen2.png' width='700'>
+
 **Steps to performing the K-Means Clustering**
 
 - **Step 1:** Choose the number k of clusters
@@ -22,19 +39,6 @@ The diagram below illustrates the impact of using K-Means on a dataset to cluste
 - **Step 4:** Compute and place the new centroid of each cluster
 - **Step 5:** Reassign each data point to the new closest centroid. If any reassignment took place, go to step 4, otherwise we are finished.
 
-
-<img src = 'Screen2.png' width='700'>
-
-
-
-
-
-<img src = 'Screen5.png' width='700'>
-
-<img src = 'Screen6.png' width='700'>
-
-
-
 **Random Initialisation Trap**
 
 Our initial selection of the centroids at the beginning of the algorithm may dictate the outcome of the algorithm. In this case, we use the "K-Means ++" algorithm.
@@ -42,8 +46,6 @@ Our initial selection of the centroids at the beginning of the algorithm may dic
 **Note**
 
 K-Means ++ happens in the background of our machine learning algorithm automatically.
-
-**
 
 **Pros of K-Means Clustering**
 
