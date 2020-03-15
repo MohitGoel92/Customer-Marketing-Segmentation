@@ -28,7 +28,7 @@ The diagram below illustrates the WCSS graphically.
 
 <img src = 'Screen6.png' width='850'>
 
-For the dataset currently under study, we will be using the elbow method by computing the WCSS and visualise our findings graphically. We are visually searching for the "elbow", which is the point that can be loosely defined as the point where the WCSS plateaus or the decrease in WCSS stabilises.
+For the dataset under our study, we will be using the elbow method by computing the WCSS and visualise our findings graphically. We are visually searching for the "elbow", which is the point that can be loosely defined as the point where the WCSS plateaus or the decrease in WCSS stabilises.
 
 **Tip**
 
@@ -61,10 +61,10 @@ The diagram below shows the graphical output of the above code, we observe the e
 
 **Steps to performing the K-Means Clustering**
 
-- **Step 1:** Choose the number k of clusters
-- **Step 2:** Select at random n points to be the centroids of the clusters
-- **Step 3:** Assign each data point to the closest centroid which will form k clusters
-- **Step 4:** Compute and place the new centroid of each cluster
+- **Step 1:** Choose the number k of clusters.
+- **Step 2:** Select at random k points to be the centroids of the clusters.
+- **Step 3:** Assign each data point to the closest centroid which will form k clusters.
+- **Step 4:** Compute and place the new centroid of each cluster.
 - **Step 5:** Reassign each data point to the new closest centroid. If any reassignment took place, go to step 4, otherwise we are finished.
 
 **Random Initialisation Trap**
@@ -86,6 +86,14 @@ K-Means ++ happens in the background of our machine learning algorithm automatic
 
 - Need to choose the number of clusters
 
+The scatter plot below is a visualisation of our dataset under study.
 
 <img src = 'Screen1.png' width='700'>
+
+After determining the optimal number of clusters being 5 from the elbow method, the diagram below is our clustered dataset. The key given beside the clustered visualisation can now be utilised in tailoring a loyalty scheme to each cluster.
+
 <img src = 'Screen3.png' width='850'>
+
+## Hierarchical Clustering
+
+
