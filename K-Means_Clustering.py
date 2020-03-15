@@ -22,9 +22,7 @@ plt.show()
 # Using the elbow method to find the optimal number of clusters
 
 from sklearn.cluster import KMeans
-
 wcss = []
-
 for i in range(1,16):
     kmeans = KMeans(n_clusters = i, init = 'k-means++', n_init = 10, max_iter = 300, random_state = 0)
     kmeans.fit(X)
