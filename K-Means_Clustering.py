@@ -13,7 +13,7 @@ X = ds.iloc[:,[3,4]].values
 
 # Visualising the dataset
 
-plt.scatter(X[:,0], X[:,1], c='blue', s=150)
+plt.scatter(X[:,0], X[:,1], c='blue', s=100)
 plt.title('Customer Dataset')
 plt.xlabel('Annual Income (k$)')
 plt.ylabel('Spending Score (1-100)')
