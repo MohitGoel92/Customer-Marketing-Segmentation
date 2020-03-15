@@ -34,7 +34,7 @@ For the dataset currently under study, we will be using the elbow method by comp
 
 If you are unable to visually see the elbow and determine the optimal number of clusters, try increasing the range of clusters. This should make the WCSS plateau more apparent for higher certainty when determining the elbow, thus finding the optimal number of clusters. 
 
-The below code is used in order to plot the graph.
+The below code is used for computing the WCSS for a cluster range of 1-15 inclusively.
 
 ```
 from sklearn.cluster import KMeans
