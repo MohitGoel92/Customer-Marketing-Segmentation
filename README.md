@@ -22,11 +22,11 @@ When using K-Means clustering, we must find the optimal number of clusters to us
 
 WCSS is the sum of the square of the distances between the points and the centroid of the cluster. The formula is given below.
 
-<img src = 'Screen6.png' width='700'>
+<img src = 'Screen5.png' width='700'>
 
 The diagram below illustrates the WCSS graphically.
 
-<img src = 'Screen5.png' width='700'>
+<img src = 'Screen6.png' width='700'>
 
 
 <img src = 'Screen2.png' width='700'>
