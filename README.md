@@ -111,7 +111,10 @@ The Hierarchical Clustering algorithm maintains a memory of how we went through 
 
 **Pros of Hierarchical Clustering**
 
-- The optimal number of clusters can be obtained by the model itself
-- Practical visualisation with the dendrogram
+- The optimal number of clusters can be obtained by the model itself.
+- Practical visualisation with the dendrogram.
 
+**Cons of Hierarchical Clustering**
+
+- Not appropriate on large datasets.
 
