@@ -28,7 +28,7 @@ The diagram below illustrates the WCSS graphically.
 
 <img src = 'Screen6.png' width='850'>
 
-For the dataset currently under study, we will be using the elbow method to compute the WCSS and visualise our findings graphically. We are visually searching for the "elbow", which is the point that can be loosely defined as the point where the WCSS plateaus or the decrease in WCSS stabilises.
+For the dataset currently under study, we will be using the elbow method by computing the WCSS and visualise our findings graphically. We are visually searching for the "elbow", which is the point that can be loosely defined as the point where the WCSS plateaus or the decrease in WCSS stabilises.
 
 **Tip**
 
