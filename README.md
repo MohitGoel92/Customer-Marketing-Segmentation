@@ -10,9 +10,11 @@ When tasked to cluster we don't know the end result and are attempting to identi
 
 ## K-Means Clustering
 
-The diagram below illustrates the impact of using K-Means on a dataset to cluster.
+The diagram below illustrates the impact of using K-Means on a dataset to cluster. We observe three clusters being optimal for the dataset.
 
 <img src = 'Screen4.png' width='850'>
+
+
 
 <img src = 'Screen1.png' width='700'>
 
