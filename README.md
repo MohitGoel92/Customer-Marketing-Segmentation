@@ -28,7 +28,11 @@ The diagram below illustrates the WCSS graphically.
 
 <img src = 'Screen6.png' width='700'>
 
-From the dataset under our study, we will be using the elbow method to compute the WCSS and visualise our findings graphicaly. We are visually searching for the "elbow", which is the point that can be loosely defined as the point where the WCSS plateaus or the decrease in WCSS stabilises.
+For the dataset currently under study, we will be using the elbow method to compute the WCSS and visualise our findings graphically. We are visually searching for the "elbow", which is the point that can be loosely defined as the point where the WCSS plateaus or the decrease in WCSS stabilises.
+
+**Tip**
+
+If you are unable to visually see the elbow and determine the optimal number of clusters, try increasing the range of clusters. This should make the WCSS plateau more apparent for higher certainty when determining the elbow, thus finding the optimal number of clusters. 
 
 The below code is used in order to plot the graph.
 
