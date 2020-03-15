@@ -14,13 +14,18 @@ The diagram below illustrates the impact of using K-Means on a dataset to cluste
 
 <img src = 'Screen4.png' width='850'>
 
+**Steps to performing the K-Means Clustering**
 
+- **Step 1:** Choose the number k of clusters
+- **Step 2:** Select at random n points to be the centroids of the clusters
+- **Step 3:** Assign each data point to the closest centroid which will form k clusters
+- **Step 4:** Compute and place the new centroid of each cluster
+- **Step 5:** Reassign each data point to the new closest centroid. If any reassignment took place, go to step 4, otherwise we are finished.
 
-<img src = 'Screen1.png' width='700'>
 
 <img src = 'Screen2.png' width='700'>
 
-<img src = 'Screen3.png' width='700'>
+
 
 
 
@@ -28,13 +33,7 @@ The diagram below illustrates the impact of using K-Means on a dataset to cluste
 
 <img src = 'Screen6.png' width='700'>
 
-**Steps to performing the K-Means Clustering**
 
-- **Step 1:** Choose the number k of clusters
-- **Step 2:** Select at random n points to be the centroids of the clusters
-- **Step 3:** Assign each data point to the closest centroid which will form k clusters
-- **Step 4:** Compute and place the new centroid of each cluster
-- **Step 5:** Reassign each data point to the new closest centroid. If any reassignment took place, go to step 4, otherwise we are finished. 
 
 **Random Initialisation Trap**
 
@@ -57,3 +56,6 @@ K-Means ++ happens in the background of our machine learning algorithm automatic
 
 - Need to choose the number of clusters
 
+
+<img src = 'Screen1.png' width='700'>
+<img src = 'Screen3.png' width='700'>
