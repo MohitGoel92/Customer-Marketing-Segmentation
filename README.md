@@ -12,7 +12,7 @@ When tasked to cluster we don't know the end result and are attempting to identi
 
 The diagram below illustrates the impact of using K-Means on a dataset to cluster.
 
-<img src = 'Screen4.png' width='700'>
+<img src = 'Screen4.png' width='850'>
 
 <img src = 'Screen1.png' width='700'>
 
