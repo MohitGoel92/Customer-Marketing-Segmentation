@@ -28,6 +28,30 @@ The diagram below illustrates the WCSS graphically.
 
 <img src = 'Screen6.png' width='700'>
 
+From the dataset under our study, we will be using the elbow method to compute the WCSS and visualise our findings graphicaly. We are visually searching for the "elbow", which is the point that can be loosely defined as the point where the WCSS plateaus or the decrease in WCSS stabilises.
+
+The below code is used in order to plot the graph.
+
+```
+from sklearn.cluster import KMeans
+wcss = []
+for i in range(1,16):
+    kmeans = KMeans(n_clusters = i, init = 'k-means++', n_init = 10, max_iter = 300, random_state = 0)
+    kmeans.fit(X)
+    wcss.append(kmeans.inertia_)
+plt.plot(range(1,16), wcss, c='blue')
+plt.title('The Elbow Method')
+plt.xlabel('Number of clusters')
+plt.ylabel('WCSS')
+plt.show()
+```
+
+**Note**
+- init = 'k-means++' refers to the "Random Initialisation Method" of the "K-Means ++" algorithm.
+- max_iter = 300 refers to the maximum number of iterations to find the final clusters when the K-Means algorithm is running, the default value for max_iter = 300.
+- n_init = 10 refers to the number of times the K-Means algorithm willbe run with different initial centroids, the default value for n_init = 10.
+
+The diagram below shows the graphical out of the above code, we observe the elbow at Number of Clusters = 5.
 
 <img src = 'Screen2.png' width='700'>
 
