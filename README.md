@@ -121,6 +121,7 @@ plt.show()
 ```
 With K-Means we use WCSS (Within Cluster Sum of Squares), but with Hierarchical Clustering we use "Within Cluster Variance". In the above code, method='ward' uses the "Ward variance minimization algorithm". The distance or new entry is given by the formula below.
 
+<img src = 'Screen11.png' width='700'>
 
 
 The diagram below shows the dendrogram produced by the above code.
