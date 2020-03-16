@@ -101,8 +101,8 @@ There are two types of Hierarchical Clustering algorithms, they are "Agglomerati
 **Steps to performing the Agglomerative Hierarchical Clustering**
 
 - **Step 1:** Make each data point a single-point cluster, therefore N datapoints resulting in N clusters.
-- **Step 2:** Take the two closest data points and make them one cluster.
-- **Step 3:** Take the two closest clusters and make them one cluster.
+- **Step 2:** Take the two closest data points (clusters) and make them one cluster, resulting in N-1 clusters.
+- **Step 3:** Take the two closest clusters and make them one cluster, resulting in N-2 clusters.
 - **Step 4:** Repeat step 3 until there is only one cluster.
 
 The Hierarchical Clustering algorithm maintains a memory of how we went through the process. The memory is stored in a dendrogram.
