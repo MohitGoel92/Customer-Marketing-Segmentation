@@ -123,6 +123,6 @@ When using Agglomerative Clustering, the ideal or optimal number of clusters are
 
 - Not appropriate on large datasets.
 
-<img src = 'Screen8.png' width='700'>
+<img src = 'Screen8_1.png' width='700'>
 
 <img src = 'Screen9.png' width='700'>
