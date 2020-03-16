@@ -75,16 +75,6 @@ Our initial selection of the centroids at the beginning of the algorithm may dic
 
 K-Means ++ happens in the background of our machine learning algorithm automatically.
 
-**Pros of K-Means Clustering**
-
-- Simple to understand
-- Easily adaptable
-- Works well on small or large datasets
-- Fast, efficient and performant
-
-**Cons of K-Means Clustering**
-
-- Need to choose the number of clusters
 
 The scatter plot below is a visualisation of our dataset under study.
 
@@ -97,6 +87,17 @@ After determining the optimal number of clusters being 5 from the elbow method, 
 ## Hierarchical Clustering
 
 There are two types of Hierarchical Clustering algorithms, they are "Agglomerative" and "Divisive" clustering. Agglomerative and Divisive clustering are also referred to as the "bottom up approach" and "starting from the top" respectively.
+
+**Pros of K-Means Clustering**
+
+- Simple to understand
+- Easily adaptable
+- Works well on small or large datasets
+- Fast, efficient and performant
+
+**Cons of K-Means Clustering**
+
+- Need to choose the number of clusters
 
 **Steps to performing the Agglomerative Hierarchical Clustering**
 
