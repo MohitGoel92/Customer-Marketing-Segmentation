@@ -138,7 +138,7 @@ Where:
 - "u" is the newly joined cluster consisting of clusters "s" and "t"
 - "v" is an unused cluster in the forest
 - T = |v| + |s| + |t|
-- |~| is the cardinality of its argument
+- |z| is the cardinality of its argument
 
 The diagram below shows the dendrogram produced by the above code.
 
