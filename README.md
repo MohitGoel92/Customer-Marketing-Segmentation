@@ -14,6 +14,17 @@ The diagram below illustrates the impact of using K-Means on a dataset to cluste
 
 <img src = 'Screen4.png' width='850'>
 
+**Pros of K-Means Clustering**
+
+- Simple to understand.
+- Easily adaptable.
+- Works well on small or large datasets.
+- Fast, efficient and performant.
+
+**Cons of K-Means Clustering**
+
+- Need to choose the number of clusters.
+
 ## The Elbow Method
 
 When using K-Means clustering, we must find the optimal number of clusters to use. The greater the number of clusters, the smaller the "Within Cluster Sum of Squares" or "WCSS", the better the goodness of fit.
@@ -88,16 +99,14 @@ After determining the optimal number of clusters being 5 from the elbow method, 
 
 There are two types of Hierarchical Clustering algorithms, they are "Agglomerative" and "Divisive" clustering. Agglomerative and Divisive clustering are also referred to as the "bottom up approach" and "starting from the top" respectively.
 
-**Pros of K-Means Clustering**
+**Pros of Hierarchical Clustering**
 
-- Simple to understand
-- Easily adaptable
-- Works well on small or large datasets
-- Fast, efficient and performant
+- The optimal number of clusters can be obtained by the model itself.
+- Practical visualisation with the dendrogram.
 
-**Cons of K-Means Clustering**
+**Cons of Hierarchical Clustering**
 
-- Need to choose the number of clusters
+- Not appropriate on large datasets.
 
 **Steps to performing the Agglomerative Hierarchical Clustering**
 
@@ -135,14 +144,7 @@ The diagram below shows the dendrogram produced by the above code.
 
 <img src = 'Screen7.png' width='700'>
 
-**Pros of Hierarchical Clustering**
 
-- The optimal number of clusters can be obtained by the model itself.
-- Practical visualisation with the dendrogram.
-
-**Cons of Hierarchical Clustering**
-
-- Not appropriate on large datasets.
 
 To determine the optimal number of clusters using a dendrogram, we set distance thresholds. For instance, we can set a threshold by not allowing the dissimilarities to go beyond a set distance X. Once we have set a threshold, we go horizontally across and see how many vertical lines cross paths with this horizontal line. The amount of interceptions will equate to the number of clusters we will select for our dataset. A common practice is to look for the longest vertical line that does not intercept the horizontal Euclidean distance bars if extended horizontally.
 
@@ -153,5 +155,3 @@ The diagram below illustrates this, with the longest distance highlighted by the
 Determining the optimal number of clusters to be 5 from the dendrogram, the diagram below is our clustered dataset. The key given beside the clustered visualisation can now be utilised in tailoring a loyalty scheme to each cluster.
 
 <img src = 'Screen11.png' width='850'>
-
-
