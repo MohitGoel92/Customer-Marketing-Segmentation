@@ -119,15 +119,20 @@ plt.xlabel('Customers')
 plt.ylabel('Euclidean Distance')
 plt.show()
 ```
-With K-Means we use WCSS (Within Cluster Sum of Squares), but with Hierarchical Clustering we use "Within Cluster Variance". In the above code, method='ward' uses the "Ward variance minimization algorithm". The distance or new entry is given by the formula below.
+With K-Means we use WCSS (Within Cluster Sum of Squares), but with Hierarchical Clustering we use "Within Cluster Variance". In the above code, method='ward' uses the "Ward variance minimization algorithm". The distance or new entry is given by the formula below, the below formula is also known as the "Incremental Algorithm".
 
 <img src = 'Screen12.png' width='700'>
 
+Where:
+
+- "u" is the newly joined cluster consisting of clusters "s" and "t"
+- "v" is an unused cluster in the forest
+- T = |v| + |s| + |t|
+- |~| is the cardinality of its argument
 
 The diagram below shows the dendrogram produced by the above code.
 
 <img src = 'Screen7.png' width='700'>
-
 
 **Pros of Hierarchical Clustering**
 
