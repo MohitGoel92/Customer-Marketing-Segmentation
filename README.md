@@ -109,7 +109,21 @@ The Hierarchical Clustering algorithm maintains a memory of how we went through 
 
 ## The Dendrogram
 
-When using Agglomerative Clustering, the ideal or optimal number of clusters are found by using the dendrogram. The diagram below shows the dendrogram of the data under study.
+When using Agglomerative Clustering, the ideal or optimal number of clusters are found by using the dendrogram. The code given below is used to produce the dendrogram.
+
+```
+import scipy.cluster.hierarchy as sch
+dendrogram = sch.dendrogram(sch.linkage(X, method = 'ward'))
+plt.title('Dendrogram')
+plt.xlabel('Customers')
+plt.ylabel('Euclidean Distance')
+plt.show()
+```
+With K-Means we use WCSS (Within Cluster Sum of Squares), but with Hierarchical Clustering we use "Within Cluster Variance". In the above code, method='ward' uses the "Ward variance minimization algorithm". The distance or new entry is given by the formula below.
+
+
+
+The diagram below shows the dendrogram produced by the above code.
 
 <img src = 'Screen7.png' width='700'>
 
@@ -132,3 +146,5 @@ The diagram below illustrates this, with the longest distance highlighted by the
 Determining the optimal number of clusters to be 5 from the dendrogram, the diagram below is our clustered dataset. The key given beside the clustered visualisation can now be utilised in tailoring a loyalty scheme to each cluster.
 
 <img src = 'Screen11.png' width='850'>
+
+
