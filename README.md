@@ -125,4 +125,4 @@ When using Agglomerative Clustering, the ideal or optimal number of clusters are
 
 <img src = 'Screen8.png' width='700'>
 
-<img src = 'Screen11.png' width='700'>
+<img src = 'Screen11.png' width='850'>
