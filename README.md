@@ -119,7 +119,7 @@ plt.xlabel('Customers')
 plt.ylabel('Euclidean Distance')
 plt.show()
 ```
-With K-Means we use WCSS (Within Cluster Sum of Squares), but with Hierarchical Clustering we use "Within Cluster Variance". In the above code, method='ward' uses the "Ward variance minimization algorithm". The distance or new entry is given by the formula below, the below formula is also known as the "Incremental Algorithm".
+With K-Means we use WCSS (Within Cluster Sum of Squares), but with Hierarchical Clustering we use "Within Cluster Variance". In the above code, method='ward' uses the "Ward variance minimization algorithm". The distance or new entry is given by the formula below, also known as the "Incremental Algorithm".
 
 <img src = 'Screen12.png' width='700'>
 
