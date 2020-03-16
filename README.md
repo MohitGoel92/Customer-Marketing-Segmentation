@@ -111,7 +111,7 @@ The Hierarchical Clustering algorithm maintains a memory of how we went through 
 
 When using Agglomerative Clustering, the ideal or optimal number of clusters are found by using the dendrogram. The diagram below shows the dendrogram of the data under study.
 
-
+<img src = 'Screen7.png' width='700'>
 
 
 **Pros of Hierarchical Clustering**
@@ -123,3 +123,6 @@ When using Agglomerative Clustering, the ideal or optimal number of clusters are
 
 - Not appropriate on large datasets.
 
+<img src = 'Screen8.png' width='700'>
+
+<img src = 'Screen9.png' width='700'>
