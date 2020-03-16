@@ -148,7 +148,7 @@ The diagram below shows the dendrogram produced by the above code.
 
 To determine the optimal number of clusters using a dendrogram, we set distance thresholds. For instance, we can set a threshold by not allowing the dissimilarities to go beyond a set distance X. Once we have set a threshold, we go horizontally across and see how many vertical lines cross path with this horizontal line. The amount of interceptions will equate to the number of clusters we will select for our dataset. A common practice is to look for the longest vertical line that does not intercept the horizontal Euclidean distance bars if extended horizontally.
 
-The diagram below illustrates this, with the longest distance highlighted by the golden arrow, and the dotted horizontal line intercepting this vertical line. As we observe the dotted line intercepting 5 vertical lines from the euclidean distances, we state that our optimal number of clusters for the dataset is 5 clusters, in agreement with the elbow method.
+The diagram below illustrates this, with the longest distance highlighted by the golden arrow and the dotted horizontal line intercepting this vertical line. As we observe the dotted line intercepting 5 vertical lines from the euclidean distances, we state that our optimal number of clusters for the dataset is 5 clusters, in agreement with the elbow method.
 
 <img src = 'Screen8.png' width='700'>
 
